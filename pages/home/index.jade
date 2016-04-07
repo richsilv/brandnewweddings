@@ -8,20 +8,30 @@ html(lang='en')
     title=content.pageTitle
   body.page-home
     +header('home')
-    main
-      section.strip
-        .container
-          #carousel.carousel.slide.m-b-2(data-ride='carousel')
-            ol.carousel-indicators
-              each item, i in content.carousel
-                li(class={active: i === 0} data-target='#carousel' data-slide-to=i)
-            .carousel-inner(role='listbox')
-              each item, i in content.carousel
-                a.carousel-item(href=item.link class={active: i === 0})
-                  img(src='#{item.image}-/format/jpeg/-/scale_crop/2048x1356/-/quality/lightest/' alt=item.title)
-          .text-xs-center
-            h1.text-uppercase=content.title
-            p.lead=content.intro
+    section.strip
+      .container
+        #carousel.carousel.slide.m-b-2(data-ride='carousel')
+          ol.carousel-indicators
+            each item, i in content.carousel
+              li(class={active: i === 0} data-target='#carousel' data-slide-to=i)
+          .carousel-inner(role='listbox')
+            each item, i in content.carousel
+              a.carousel-item(href=item.link class={active: i === 0})
+                img(src='#{item.image}-/format/jpeg/-/scale_crop/2048x1356/-/quality/lightest/' alt=item.title)
+        .text-xs-center
+          h1.text-uppercase=content.title
+          p.lead=content.intro
+    section.strip
+      .container
+        .row
+          - var weddings = realWeddings.recent(3)
+          each wedding in weddings
+            .col-sm-6.col-md-4
+              .card
+                img.card-img-top(src=wedding.image style="width: 100%;")
+                .card-block
+                  h4.card-title=wedding.name
+                  p.cart-text=wedding.description
     include ../social
     include ../exhibit
     include ../awards
