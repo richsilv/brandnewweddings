@@ -1,17 +1,21 @@
 {
-	"pageTitle": "Subpages example",
-	"collection": {
-		"key": "subPages",
-		"slugFrom": "title"
-	},
-	"subPages": [
-		{
-			"title": "Subpage 1",
-			"subtitle": "First subpage"
-		},
-		{
-			"title": "Subpage 2",
-			"subtitle": "Second subpage"
-		}
-	]
+  "pageTitle": "Subpages example",
+  "collection": {
+    "key": "subPages",
+    "slugFrom": "title"
+  },
+  "subPages": [
+    {
+      "title": "Subpage 1",
+      "subtitle": "First subpage"
+    },
+    {
+      "title": "Subpage 2",
+      "subtitle": "Second subpage"
+    },
+    {
+      "title": "A much more interesting page",
+      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce imperdiet tortor quis ipsum iaculis, et semper nisl tincidunt. Pellentesque diam."
+    }
+  ]
 }
