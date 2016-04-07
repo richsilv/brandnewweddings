@@ -1,23 +1,25 @@
 {
-	"pageTitle": "Real Weddings",
-	"weddings": [{
-    "name": "Scandi Geo's",
-    "description": "at Babington House",
-    "image": "http://placehold.it/350x250"
-  },
-  {
-    "name": "Pencil us in",
-    "description": "Gold Foil & Watercolour",
-    "image": "http://placehold.it/350x250"
-  },
-  {
-    "name": "Vintage chic",
-    "description": "in West Sussex",
-    "image": "http://placehold.it/350x250"
-  },
-  {
-    "name": "Another wedding",
-    "description": "Fabulous stationery",
-    "image": "http://placehold.it/350x250"
-  }]
+  "pageTitle": "Real Weddings",
+  "weddings": [
+    {
+      "name": "Scandi Geo's",
+      "description": "at Babington House",
+      "image": "http://placehold.it/350x250"
+    },
+    {
+      "name": "Pencil us in",
+      "description": "Gold Foil & Watercolour",
+      "image": "http://www.ucarecdn.com/c6444ee0-b993-4b54-97a3-3c2a330b696c/"
+    },
+    {
+      "name": "Vintage chic",
+      "description": "in West Sussex",
+      "image": "http://placehold.it/350x250"
+    },
+    {
+      "name": "Another wedding",
+      "description": "Fabulous stationery",
+      "image": "http://placehold.it/350x250"
+    }
+  ]
 }
