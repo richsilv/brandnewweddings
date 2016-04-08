@@ -3,7 +3,8 @@
     "type": "img"
   },
   "exhibitLink": {
-    "type": "url"
+    "type": "text",
+    "pattern": "^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$"
   },
   "awardsImage1": {
     "type": "img"
