@@ -28,9 +28,9 @@ html(lang='en')
           each wedding in weddings
             .col-sm-6.col-md-4
               .card
-                img.card-img-top(src=wedding.image style="width: 100%;")
+                .img-container.card-img-top(style="background-image: url('#{wedding.image}');")
                 .card-block
-                  h4.card-title=wedding.name
+                  h3.text-uppercase.card-title=wedding.name
                   p.cart-text=wedding.description
     include ../social
     include ../exhibit

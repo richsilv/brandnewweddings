@@ -106,6 +106,12 @@ h1 {
     @include make-col($grid-gutter-width / 4);
   }
 }
+.img-container {
+  height: 250px;
+  background-size: cover;
+  background-attach: center;
+  width: 100%;
+}
 
 @include media-breakpoint-up(lg) {
   #header {
