@@ -4,7 +4,9 @@
   },
   "exhibitLink": {
     "type": "text",
-    "pattern": "^(https?://)?([0-9a-z.-]+).([a-z.]{2,6})([/[0-9][a-z].-]*)*/?$"
+    "validation": {
+      "pattern": "^(https?://)?([0-9a-z.-]+).([a-z.]{2,6})([/[0-9][a-z].-]*)*/?$"  
+    }
   },
   "awardsImage1": {
     "type": "img"
